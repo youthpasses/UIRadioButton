@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CFACB61160C583B0027018A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFACB60160C583B0027018A /* UIKit.framework */; };
+		9CFACB63160C583B0027018A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFACB62160C583B0027018A /* Foundation.framework */; };
+		9CFACB65160C583B0027018A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFACB64160C583B0027018A /* CoreGraphics.framework */; };
+		9CFACB6B160C583B0027018A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CFACB69160C583B0027018A /* InfoPlist.strings */; };
+		9CFACB6D160C583B0027018A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFACB6C160C583B0027018A /* main.m */; };
+		9CFACB71160C583B0027018A /* UIRadioButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFACB70160C583B0027018A /* UIRadioButtonAppDelegate.m */; };
+		9CFACB74160C583B0027018A /* UIRadioButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFACB73160C583B0027018A /* UIRadioButtonViewController.m */; };
+		9CFACB77160C583B0027018A /* UIRadioButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CFACB75160C583B0027018A /* UIRadioButtonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CFACB5C160C583B0027018A /* UIRadioButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIRadioButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFACB60160C583B0027018A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CFACB62160C583B0027018A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CFACB64160C583B0027018A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CFACB68160C583B0027018A /* UIRadioButton-Info.plist */ = {isa = PBXFileReference; path = "UIRadioButton-Info.plist"; sourceTree = "<group>"; };
+		9CFACB6A160C583B0027018A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CFACB6C160C583B0027018A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CFACB6E160C583B0027018A /* UIRadioButton-Prefix.pch */ = {isa = PBXFileReference; path = "UIRadioButton-Prefix.pch"; sourceTree = "<group>"; };
+		9CFACB6F160C583B0027018A /* UIRadioButtonAppDelegate.h */ = {isa = PBXFileReference; path = UIRadioButtonAppDelegate.h; sourceTree = "<group>"; };
+		9CFACB70160C583B0027018A /* UIRadioButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIRadioButtonAppDelegate.m; sourceTree = "<group>"; };
+		9CFACB72160C583B0027018A /* UIRadioButtonViewController.h */ = {isa = PBXFileReference; path = UIRadioButtonViewController.h; sourceTree = "<group>"; };
+		9CFACB73160C583B0027018A /* UIRadioButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIRadioButtonViewController.m; sourceTree = "<group>"; };
+		9CFACB76160C583B0027018A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIRadioButtonViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CFACB59160C583B0027018A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFACB61160C583B0027018A /* UIKit.framework in Frameworks */,
+				9CFACB63160C583B0027018A /* Foundation.framework in Frameworks */,
+				9CFACB65160C583B0027018A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CFACB51160C583B0027018A = {
+			isa = PBXGroup;
+			children = (
+				9CFACB66160C583B0027018A /* UIRadioButton */,
+				9CFACB5F160C583B0027018A /* Frameworks */,
+				9CFACB5D160C583B0027018A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CFACB5D160C583B0027018A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CFACB5C160C583B0027018A /* UIRadioButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CFACB5F160C583B0027018A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CFACB60160C583B0027018A /* UIKit.framework */,
+				9CFACB62160C583B0027018A /* Foundation.framework */,
+				9CFACB64160C583B0027018A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CFACB66160C583B0027018A /* UIRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				9CFACB6F160C583B0027018A /* UIRadioButtonAppDelegate.h */,
+				9CFACB70160C583B0027018A /* UIRadioButtonAppDelegate.m */,
+				9CFACB72160C583B0027018A /* UIRadioButtonViewController.h */,
+				9CFACB73160C583B0027018A /* UIRadioButtonViewController.m */,
+				9CFACB75160C583B0027018A /* UIRadioButtonViewController.xib */,
+				9CFACB67160C583B0027018A /* Supporting Files */,
+			);
+			path = UIRadioButton;
+			sourceTree = "<group>";
+		};
+		9CFACB67160C583B0027018A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CFACB68160C583B0027018A /* UIRadioButton-Info.plist */,
+				9CFACB69160C583B0027018A /* InfoPlist.strings */,
+				9CFACB6C160C583B0027018A /* main.m */,
+				9CFACB6E160C583B0027018A /* UIRadioButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CFACB5B160C583B0027018A /* UIRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CFACB7A160C583B0027018A /* Build configuration list for PBXNativeTarget "UIRadioButton" */;
+			buildPhases = (
+				9CFACB58160C583B0027018A /* Sources */,
+				9CFACB59160C583B0027018A /* Frameworks */,
+				9CFACB5A160C583B0027018A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIRadioButton;
+			productName = UIRadioButton;
+			productReference = 9CFACB5C160C583B0027018A /* UIRadioButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CFACB53160C583B0027018A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UIRadioButton;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9CFACB56160C583B0027018A /* Build configuration list for PBXProject "UIRadioButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CFACB51160C583B0027018A;
+			productRefGroup = 9CFACB5D160C583B0027018A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CFACB5B160C583B0027018A /* UIRadioButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CFACB5A160C583B0027018A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFACB6B160C583B0027018A /* InfoPlist.strings in Resources */,
+				9CFACB77160C583B0027018A /* UIRadioButtonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CFACB58160C583B0027018A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFACB6D160C583B0027018A /* main.m in Sources */,
+				9CFACB71160C583B0027018A /* UIRadioButtonAppDelegate.m in Sources */,
+				9CFACB74160C583B0027018A /* UIRadioButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CFACB69160C583B0027018A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CFACB6A160C583B0027018A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CFACB75160C583B0027018A /* UIRadioButtonViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CFACB76160C583B0027018A /* en */,
+			);
+			name = UIRadioButtonViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CFACB78160C583B0027018A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9CFACB79160C583B0027018A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CFACB7B160C583B0027018A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRadioButton/UIRadioButton-Prefix.pch";
+				INFOPLIST_FILE = "UIRadioButton/UIRadioButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CFACB7C160C583B0027018A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRadioButton/UIRadioButton-Prefix.pch";
+				INFOPLIST_FILE = "UIRadioButton/UIRadioButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CFACB56160C583B0027018A /* Build configuration list for PBXProject "UIRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFACB78160C583B0027018A /* Debug */,
+				9CFACB79160C583B0027018A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CFACB7A160C583B0027018A /* Build configuration list for PBXNativeTarget "UIRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFACB7B160C583B0027018A /* Debug */,
+				9CFACB7C160C583B0027018A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CFACB53160C583B0027018A /* Project object */;
+}
